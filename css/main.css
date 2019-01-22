@@ -1871,12 +1871,13 @@ h1, h2, h3, h4, h5, h6 {
     background: #222222; }
 
 .logo{
-  height: 65px;
+  height: 35px;
+  border-radius: 50%
 }
 .logo2{
   padding: 0;
   margin: 0;
-  height: 55px !important;
+  height: 100px;
 }
 #logo {
   margin-left: 15px; }
@@ -3502,4 +3503,9 @@ h2{
 
 .button-contain{
   margin-left:20%;
+}
+
+#nav-position{
+  position: absolute;
+  right: 10%;
 }

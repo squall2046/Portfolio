@@ -5,7 +5,7 @@
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/fav.png">
+	<link rel="shortcut icon" href="img/logo-t.png">
 	<!-- Author Meta -->
 	<meta name="author" content="colorlib">
 	<!-- Meta Description -->
@@ -30,6 +30,7 @@
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/hover-min.css">
 </head>
 
 <body>
@@ -47,23 +48,25 @@
 	<header id="header">
 		<div class="container main-menu">
 			<div class="row align-items-center d-flex">
-				<div id="logo">
-					<a href="index.html"><img src="img/logo.png" alt="" title="" class="logo wow flipInY" data-wow-duration="5s"
-						 data-wow-iteration="50" /></a>
+				<div id="logo" class="wow flipInY" data-wow-duration="5s" data-wow-iteration="50">
+					<a href="index.html"><img src="img/logo.png" alt="" title="" class="logo"></a>
 				</div>
-				<nav id="nav-menu-container">
-					<ul class="nav-menu">
-						<li><a class="active" href="#toHome">Home</a></li>
-						<li><a class="menu-color" href="#toAbout">About</a></li>
-						<li><a class="menu-color" href="#toPortfolio">Portfolio</a></li>
-						<li><a class="menu-color" href="#toContact">Contact</a></li>
+				<span> &nbsp; Isaac Wu</span>
 
-						<!-- <li><a class="active" href="index.html">Home</a></li>
+				<div id="nav-position">
+					<nav id="nav-menu-container">
+						<ul class="nav-menu">
+							<li><a class="active" href="#toHome">Home</a></li>
+							<li><a class="menu-color" href="#toAbout">About</a></li>
+							<li><a class="menu-color" href="#toPortfolio">Portfolio</a></li>
+							<li><a class="menu-color" href="#toContact">Contact</a></li>
+
+							<!-- <li><a class="active" href="index.html">Home</a></li>
 						<li><a class="menu-color" href="about.html">About</a></li>
 						<li><a class="menu-color" href="portfolio.html">Portfolio</a></li>
 						<li><a class="menu-color" href="contact.html">Contact</a></li> -->
 
-						<!-- <li class="menu-has-children"><a href="#">Pages</a>
+							<!-- <li class="menu-has-children"><a href="#">Pages</a>
 							<ul>
 								<li><a href="elements.html">Elements</a></li>
 								<li><a href="contact.html">Contact</a></li>
@@ -77,8 +80,9 @@
 								<li><a href="blog-single.html">Blog Single</a></li>
 							</ul>
 						</li> -->
-					</ul>
-				</nav>
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</div>
 	</header>
@@ -91,7 +95,7 @@
 			<div class="row d-flex align-items-center">
 				<div class="banner-content col-lg-12 col-md-12 justify-content-center ">
 					<!-- <div class="me wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.2s">It's me</div> -->
-					<h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Isaac Wu</h1>
+					<h1 class="hvr-bob" data-wow-duration="1s" data-wow-delay="1s">Isaac Wu</h1>
 					<div class="designation mb-50 wow fadeInUp menu-color" data-wow-duration="1s" data-wow-delay="1.6s">
 						Full Stack Developer
 						<!-- <span class="developer">Developer</span>
@@ -119,35 +123,9 @@
 
 	<!-- Start brands Area -->
 	<section class="brands-area iw-border" id="toHome">
-		<a href="#"><img class="iw-id" src="img/id.jpg" alt=""></a>
+		<img class="iw-id" src="img/id.jpg" alt="">
+		<!-- <img class="iw-id hvr-rotate" src="img/id.jpg" alt=""> -->
 	</section>
-	<!-- <div class="container">
-		<div class="brand-wrap">
-			<div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
-				<div class="col single-brand">
-					<img class="mx-auto logo" src="img/brand/b1.png" alt="">
-				</div>
-				<div class="col single-brand">
-					<img class="mx-auto logo" src="img/brand/b2.png" alt="">
-				</div>
-				<div class="col single-brand">
-					<img class="mx-auto logo" src="img/brand/b3.png" alt="">
-				</div>
-				<div class="col single-brand">
-					<img class="mx-auto logo" src="img/brand/b4.png" alt="">
-				</div>
-				<div class="col single-brand">
-					<img class="mx-auto logo" src="img/brand/b5.png" alt="">
-				</div>
-				<div class="col single-brand">
-					<img class="mx-auto logo" src="img/brand/b6.png" alt="">
-				</div>
-				<div class="col single-brand">
-					<img class="mx-auto logo" src="img/brand/b7.png" alt="">
-				</div>
-			</div>
-		</div>
-	</div> -->
 	<!-- End brands Area -->
 
 
@@ -157,7 +135,7 @@
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-6 col-md-12 about-left">
 					<img class="img-fluid" src="#" alt="">
-					<div class="mb-50 wow fadeInLeft" data-wow-duration="2.8s">
+					<div class="mb-50 wow fadeInLeft" data-wow-duration="2s">
 						<p class="text-right">
 							I was a MBA student and graduated from Troy University in 2012. The Founder of Richangle LLC and deployed an
 							international express business started in 2016. In the first year, my company reached 3,000+ packages
@@ -179,10 +157,10 @@
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12 about-right">
-					<div class="section-title wow fadeInRight" data-wow-duration="1.8s">
+					<div class="section-title wow fadeInRight" data-wow-duration="1.2s">
 						<h2>about myself</h2>
 					</div>
-					<div class="mb-50 wow fadeInRight" data-wow-duration="2.8s">
+					<div class="mb-50 wow fadeInRight" data-wow-duration="2.3s">
 						<p class="text-left">
 							Currently, I'm studying the Full Stack Development Program at University of Richmond Coding Boot Camp. I'll
 							graduate in May
@@ -218,7 +196,7 @@
 		<div class="container">
 			<div class="row d-flex">
 				<div class="col-lg-12">
-					<div class="section-title wow fadeInLeft" data-wow-duration="1.8s">
+					<div class="section-title wow fadeInLeft" data-wow-duration="1.5s">
 						<h2>Experience</h2>
 						<!-- <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p> -->
 					</div>
@@ -227,7 +205,7 @@
 
 			<div class="row">
 				<div class="col-lg-6">
-					<div class="single-job wow fadeInLeft" data-wow-duration="2.5s">
+					<div class="single-job wow fadeInLeft" data-wow-duration="2.3s">
 						<div class="top-sec d-flex justify-content-between">
 							<div class="top-left">
 								<h4>General Manager</h4>
@@ -250,7 +228,7 @@
 				</div>
 
 				<div class="col-lg-6">
-					<div class="single-job wow fadeInRight" data-wow-duration="2.8s">
+					<div class="single-job wow fadeInRight" data-wow-duration="2.5s">
 						<div class="top-sec d-flex justify-content-between">
 							<div class="top-left">
 								<h4>Account Manager</h4>
@@ -274,7 +252,7 @@
 				</div>
 
 				<div class="col-lg-6">
-					<div class="single-job wow fadeInLeft" data-wow-duration="3.0s">
+					<div class="single-job wow fadeInLeft" data-wow-duration="2s">
 						<div class="top-sec d-flex justify-content-between">
 							<div class="top-left">
 								<h4>Marketing Assistant</h4>
@@ -325,12 +303,13 @@
 	</section>
 	<!-- End Experience Area -->
 
+
 	<!-- Start Skills Area -->
 	<section class="service-area section-gap">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="section-title wow fadeInLeft" data-wow-duration="1.8s">
+					<div class="section-title wow fadeInLeft" data-wow-duration="1.5s">
 						<h2 id="font-white">Skills</h2>
 						<!-- <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p> -->
 					</div>
@@ -338,10 +317,10 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
-					<div class="single-service wow fadeInUp" data-wow-duration="2.2s">
+					<div class="single-service wow fadeInRight" data-wow-duration="2s">
 						<span class="lnr lnr-screen"></span>
 						<h4>
-							<span>Web </span>Design
+							<span>Front-end </span>Development
 						</h4>
 						<img class="skills" src="img/brand/b2.png" alt="">
 						<img class="skills" src="img/brand/b3.png" alt="">
@@ -349,7 +328,7 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="single-service wow fadeInUp" data-wow-duration="2.2s" data-wow-delay="0.3s">
+					<div class="single-service wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.3s">
 						<span class="lnr lnr-laptop-phone"></span>
 						<h4><span>MERN </span>Stack
 						</h4>
@@ -360,7 +339,7 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="single-service wow fadeInUp" data-wow-duration="2.2s" data-wow-delay="0.6s">
+					<div class="single-service wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.6s">
 						<span class="lnr lnr-database"></span>
 						<h4><span>Libraries</span>& Frameworks
 						</h4>
@@ -370,7 +349,7 @@
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<div class="single-service wow fadeInUp" data-wow-duration="2.2s" data-wow-delay="1s">
+					<div class="single-service wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
 						<span class="lnr lnr-chart-bars"></span>
 						<h4><span>Program</span>& Database
 						</h4>
@@ -389,7 +368,7 @@
 		<div class="container">
 			<div class="row d-flex justify-content-between align-items-end mb-80">
 				<div class="col-lg-12">
-					<div class="section-title wow fadeInLeft" data-wow-duration="1.8s">
+					<div class="section-title wow fadeInLeft" data-wow-duration="1.5s">
 						<h2 id="font-white">Portfolio</h2>
 						<!-- <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p> -->
 					</div>
@@ -408,74 +387,78 @@
 
 			<div class="filters-content">
 				<div class="row grid">
-					<div class="single-work col-lg-6 col-md-6 col-sm-12 all branding wow bounceInDown" data-wow-delay="1s"
-					 data-wow-duration="1.5s">
-						<div class="relative">
+					<!-- project-5 -->
+					<div class="single-work col-lg-6 col-md-6 col-sm-12 all branding">
+						<div class="relative wow zoomInDown" data-wow-duration="1.5s">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w5.gif" alt="">
+								<img class="image img-fluid" src="img/work/w5.jpg" alt="">
 							</div>
 							<div class="middle">
 								<h4>Recipe Roundup (TEC)</h4>
-								<div class="cat">Client Project</div>
+								<div class="cat"> Project</div>
 							</div>
 							<a class="overlay" target="blank" href="https://squall2046.github.io/project1-tec/"></a>
 						</div>
 					</div>
-					<div class="single-work col-lg-6 col-md-6 col-sm-12 all branding wow bounceInDown" data-wow-delay=".5s"
-					 data-wow-duration="1.5s">
-						<div class="relative">
+
+					<!-- project-4 -->
+					<div class="single-work col-lg-6 col-md-6 col-sm-12 all branding">
+						<div class="relative wow zoomInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w4.gif" alt="">
+								<img class="image img-fluid" src="img/work/w4.jpg" alt="">
 							</div>
 							<div class="middle">
 								<h4>Meal & Drink (ISAAC)</h4>
-								<div class="cat">Client Project</div>
+								<div class="cat"> Project</div>
 							</div>
 							<a class="overlay" target="blank" href="https://squall2046.github.io/Meal-Drink/"></a>
 						</div>
 					</div>
-					<div class="single-work col-lg-6 col-md-6 col-sm-12 all branding wow bounceInDown" data-wow-delay=".5s"
-					 data-wow-duration="1.5s">
-						<div class="relative">
+
+					<!-- project-3 -->
+					<div class="single-work col-lg-6 col-md-6 col-sm-12 all branding">
+						<div class="relative wow zoomInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w3.gif" alt="">
+								<img class="image img-fluid" src="img/work/w1.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>Train Scheduler</h4>
+								<div class="cat"> Project</div>
+							</div>
+							<a class="overlay" target="blank" href="https://squall2046.github.io/Train-Scheduler/"></a>
+						</div>
+					</div>
+
+					<!-- project-2 -->
+					<div class="single-work col-lg-6 col-md-6 col-sm-12 all branding">
+						<div class="relative wow zoomInDown" data-wow-delay=".1s" data-wow-duration="1.5s">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/w3.jpg" alt="">
 							</div>
 							<div class="middle">
 								<h4>Trivia Game</h4>
-								<div class="cat">Client Project</div>
+								<div class="cat"> Project</div>
 							</div>
 							<a class="overlay" target="blank" href="https://squall2046.github.io/Trivia-Game/"></a>
 						</div>
 					</div>
-					<div class="single-work col-lg-6 col-md-6 col-sm-12 all branding wow bounceInDown" data-wow-delay="1s"
-					 data-wow-duration="1.5s">
-						<div class="relative">
+
+					<!-- project-1 -->
+					<div class="single-work col-lg-6 col-md-6 col-sm-12 all branding">
+						<div class="relative wow zoomInDown" data-wow-delay=".2s" data-wow-duration="1.5s">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w2.gif" alt="">
+								<img class="image img-fluid" src="img/work/w2.jpg" alt="">
 							</div>
 							<div class="middle">
 								<h4>Coin Collector Game</h4>
-								<div class="cat">Client Project</div>
+								<div class="cat"> Project</div>
 							</div>
 							<a class="overlay" target="blank" href="https://squall2046.github.io/Coin-Collector-Game/"></a>
-						</div>
-					</div>
-					<div class="single-work col-lg-6 col-md-6 col-sm-12 all branding wow bounceInDown" data-wow-delay=".5s"
-					 data-wow-duration="1.5s">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w1.gif" alt="">
-							</div>
-							<div class="middle">
-								<h4>Train Scheduler</h4>
-								<div class="cat">Client Project</div>
-							</div>
-							<a class="overlay" target="blank" href="https://squall2046.github.io/Train-Scheduler/"></a>
 						</div>
 					</div>
 				</div>
@@ -557,9 +540,10 @@
 			</div>
 		</div>
 	</section>
+	</div>
+	<!-- End Education Area -->
 
-
-	<div class="container">
+	<!-- <div class="container">
 		<div class="brand-wrap">
 			<div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
 				<div class="col single-brand">
@@ -605,9 +589,7 @@
 					<img class="mx-auto logo" src="img/brand/b14.png" alt="">
 				</div>
 			</div>
-		</div>
-	</div>
-	<!-- End Education Area -->
+		</div> -->
 
 
 	<!-- Start Contact Area -->
@@ -653,7 +635,7 @@
 			<div class="row">
 				<div class="col-lg-12 text-center wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
 					<a href="https://docs.wixstatic.com/ugd/3b3422_bbe3b4d8525c421a8ba749e2d4d0897a.pdf" target="_blank" class="primary-btn mt-50"
-					 data-text="Click to download My Resume">
+					 data-text="Download My Resume">
 						<span>D</span>
 						<span>o</span>
 						<span>w</span>
@@ -685,7 +667,7 @@
 					<div class="footer-top flex-column">
 						<div class="footer-logo">
 							<a href="#">
-								<img src="img/logo.png" alt="" class="logo wow fadeIn" data-wow-delay="3s" data-wow-duration="5s">
+								<img src="img/logo.png" alt="" class="logo2 wow fadeIn" data-wow-delay="3s" data-wow-duration="5s">
 							</a>
 							<h4>Follow Me</h4>
 						</div>
