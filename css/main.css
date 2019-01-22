@@ -698,7 +698,8 @@ td, th {
 #back-top {
   position: fixed;
   right: 0;
-  bottom: 30px;
+  margin-right: 50px;
+  bottom: 70px;
   cursor: pointer;
   z-index: 9999999;
   opacity: 0;
@@ -707,13 +708,12 @@ td, th {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
   #back-top a {
-    background: #90acd1;
+    background: rgb(32, 46, 109);
     display: block;
     text-align: center;
-    width: 35px;
     height: 40px;
-    border-radius: 5px 5px 0 0;
-    padding: 12px 8px 8px 7px;
+    border-radius: 25px 25px 0 25px;
+    padding: 10px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -722,7 +722,7 @@ td, th {
       font-size: 22px;
       color: #fff; }
     #back-top a:hover {
-      box-shadow: 0 8px 12px rgba(156, 156, 156, 0.7); }
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5); }
 
 .back-top-animation {
   right: 20px !important;
@@ -802,13 +802,13 @@ td, th {
 .primary-btn {
   color: #fff;
   padding: 0 52px;
-  background: #e45447;
+  background: rgb(32, 46, 109);;
   overflow: hidden;
-  border-radius: 40px;
+  border-radius: 0 0 20px 20px;
   font-size: 15px;
   font-weight: 600;
   display: inline-block;
-  border: 1px solid #e45447;
+  border: 1px solid rgb(32, 46, 109);;
   vertical-align: middle;
   position: relative;
   z-index: 1;
@@ -846,7 +846,7 @@ td, th {
         padding: 8px 0; } }
   .primary-btn:hover {
     background: #fff;
-    border: 1px solid #e45447; }
+    border: 1px solid rgb(32, 46, 109);; }
     .primary-btn:hover:before {
       opacity: 0;
       -webkit-transform: translate3d(0, 100%, 0);
@@ -856,7 +856,7 @@ td, th {
       transform: translate3d(0, 100%, 0); }
     .primary-btn:hover span {
       opacity: 1;
-      color: #e45447;
+      color: rgb(32, 46, 109);;
       -webkit-transform: translate3d(0, 0, 0);
       -moz-transform: translate3d(0, 0, 0);
       -ms-transform: translate3d(0, 0, 0);
@@ -985,7 +985,7 @@ td, th {
         padding: 8px 0; } }
   .primary-btn.white {
     border: 1px solid #90acd1;
-    color: #e45447;
+    color: rgb(32, 46, 109);;
     background: #fff; }
     .primary-btn.white span {
       color: #222222; }
@@ -2595,7 +2595,7 @@ background-repeat: no-repeat}
       max-width: 540px;
       margin: 0 auto; }
   .contact-area .primary-btn {
-    background: rgb(255, 112, 112);
+    background: rgb(48, 54, 78);
     color: rgb(0, 0, 0);
     border: 1px solid rgba(255, 255, 255,.5); }
     .contact-area .primary-btn:before {
