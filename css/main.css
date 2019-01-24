@@ -2270,6 +2270,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .work-area {
   background-image: url("../img/banner-bg8.gif");
   background-position: center;
+  /* background-repeat: no-repeat; */
   background-size: contain}
   @media (max-width: 1024px) {
     .work-area .row.mb-80 {
