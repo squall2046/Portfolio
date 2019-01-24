@@ -709,10 +709,13 @@ td, th {
   transition: all 0.3s ease 0s; }
   #back-top a {
     background: rgb(32, 46, 109);
+    background: linear-gradient(5deg,#d474b0, #64c6df);
+    background-size: 100%;
+
     display: block;
     text-align: center;
     height: 40px;
-    border-radius: 25px 25px 0 25px;
+    border-radius: 50% 50% 0 50%;
     padding: 10px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -1064,7 +1067,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10px; }
   .button-group-area .genric-btn:last-child {
     margin-right: 0; }
-
+/* 
 .genric-btn {
   display: inline-block;
   outline: none;
@@ -1224,7 +1227,7 @@ h1, h2, h3, h4, h5, h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #e45447; }
+  border-left: 2px solid #e45447; } */
 
 @media (max-width: 991px) {
   .progress-table-wrap {
@@ -1267,7 +1270,7 @@ h1, h2, h3, h4, h5, h6 {
       .progress-table .table-row .percentage .progress .progress-bar {
         height: 5px;
         line-height: 5px; }
-        .progress-table .table-row .percentage .progress .progress-bar.color-1 {
+        /* .progress-table .table-row .percentage .progress .progress-bar.color-1 {
           background-color: #6382e6; }
         .progress-table .table-row .percentage .progress .progress-bar.color-2 {
           background-color: #e66686; }
@@ -1282,7 +1285,7 @@ h1, h2, h3, h4, h5, h6 {
         .progress-table .table-row .percentage .progress .progress-bar.color-7 {
           background-color: #a367e7; }
         .progress-table .table-row .percentage .progress .progress-bar.color-8 {
-          background-color: #e66686; }
+          background-color: #e66686; } */
 
 .single-gallery-image {
   margin-top: 30px;
@@ -2361,7 +2364,8 @@ background-repeat: no-repeat}
 .single-job {
   background-color: #f9f9ff;
   padding: 40px 30px;
-  border-radius: 10px;
+  /* border-radius: 5px 5px 45px 5px; */
+  border-radius: 1px 25px 1px 1px;
   margin-bottom: 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2417,16 +2421,16 @@ background-repeat: no-repeat}
   .service-area.white {
     background: #fff; }
   .service-area .col-lg-3.col-md-6:nth-child(1) .single-service {
-    background: rgba(159, 95, 212, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     }
   .service-area .col-lg-3.col-md-6:nth-child(2) .single-service {
-    background: rgba(74, 184, 169, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     }
   .service-area .col-lg-3.col-md-6:nth-child(3) .single-service {
-    background: rgba(206, 76, 76, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     }
   .service-area .col-lg-3.col-md-6:nth-child(4) .single-service {
-    background: rgba(38, 97, 226, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     }
 
 .single-service {
