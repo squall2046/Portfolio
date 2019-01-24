@@ -707,6 +707,10 @@ td, th {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
+  @media (max-width: 576px) {
+    #back-top {
+      margin-right: 10px;
+      bottom: 30px} }
   #back-top a {
     background: rgb(32, 46, 109);
     background: linear-gradient(5deg,#d474b0, #64c6df);
@@ -3477,6 +3481,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 10px;
   margin-right: auto;
   margin-top: 10px;
+}
+.iw-qr{
+  height: 100px;
+}
+.iw-qr-full{
+  width: 140px;
+  margin: 6px 5% 15px;
+}
+.card-text{
+  color: black;
+  margin-left: 6%;
 }
 
 h1{
