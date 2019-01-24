@@ -2271,7 +2271,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-image: url("../img/banner-bg8.gif");
   background-position: center;
   /* background-repeat: no-repeat; */
-  background-size: contain}
+  background-size: cover}
   @media (max-width: 1024px) {
     .work-area .row.mb-80 {
       margin-bottom: 30px; } }
@@ -2319,7 +2319,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 5px;
   margin-bottom: 30px; }
   .single-work .thumb .overlay-bg {
-    background: #e45447;
+    background: rgb(32, 46, 109);
+    background: linear-gradient(5deg,#d474b0, #64c6df);
     opacity: 0;
     border-radius: 5px;
     -webkit-transition: all 0.3s ease 0s;
@@ -2909,7 +2910,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       width: 60%;
       height: 1%; }
   .top-category-widget-area .single-cat-widget:hover .overlay-bg {
-    background: rgba(228, 84, 71, 0.85);
+    background: rgb(32, 46, 109);
     margin: 7%;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
