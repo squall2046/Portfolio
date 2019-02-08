@@ -1199,7 +1199,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 .single-work:hover .thumb .overlay-bg {
-  opacity: 0.8;
+  opacity: .95;
 }
 .single-work:hover .middle {
   opacity: 1;
